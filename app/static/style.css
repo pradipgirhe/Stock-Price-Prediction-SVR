@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #fff;
+    padding-top: 30px;
+    overflow-y: auto; /* Allows vertical scrolling */
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    text-align: center;
+    margin-top: 30px; /* Adds breathing space from top */
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 28px;
+    color: #ffd700;
+}
+
+p {
+    margin-bottom: 25px;
+    font-size: 16px;
+    color: #e0e0e0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+input:focus {
+    border: 2px solid #ffd700;
+}
+
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: #ffd700;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background: #ffb700;
+}
+
+.result-card {
+    margin-top: 25px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+    font-size: 20px;
+    color: #ffd700;
+    font-weight: bold;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.chart-container {
+    margin-top: 30px;
+    background: rgba(0,0,0,0.5);
+    padding: 20px;
+    border-radius: 15px;
+}
