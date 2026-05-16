@@ -23,4 +23,3 @@ This project predicts the next day's closing stock price using historical stock 
    `python app/app.py`
 3. Open browser at  
    `http://127.0.0.1:5000/`
-# Stock-Price-Prediction-SVR
